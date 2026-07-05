@@ -1,0 +1,21 @@
+    1  su -
+    2  exit
+    5  hostname
+    6  uname -r
+   10  sudo apt install chromium
+   11  curl -fsS https://dl.brave.com/install.sh | sh
+   12  sudo apt install ksnip
+   14  curl -fsSL https://pkgs.netbird.io/install.sh | sh
+   16  netbird status
+   17  netbird down
+   18  netbird up --management-url=https://netbird.rcmtoolkit.com/
+   19  ping 10.0.0.68
+   21  sudo apt install remmina remmina-plugin-rdp   
+   22  cat /etc/os-release 
+   23  echo "deb http://deb.debian.org/debian trixie-backports main contrib non-free-firmware" | sudo tee /etc/apt/sources.list.d/backports.list
+   24  sudo apt update   
+   25  sudo apt install -t trixie-backports linux-image-amd64   
+   26  sudo reboot
+   28  sudo apt install -y alacritty 
+   34  sudo apt install gvfs-backends smbclient   
+   36  sudo apt install -y tmux
