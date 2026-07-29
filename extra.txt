@@ -12,3 +12,5 @@ sudo apt update
 sudo apt install -t trixie-backports linux-image-amd64 linux-headers-amd64   
 ## reboot for new kernel
 ####
+
+sudo apt install gvfs-backends smbclient -y
