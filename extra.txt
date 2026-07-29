@@ -1,0 +1,6 @@
+sudo apt update && sudo apt install -y remmina remmina-plugin-rdp remmina-plugin-secret
+sudo apt install git curl -y
+sudo curl -fsSL https://pkgs.netbird.io/install.sh | sh
+sudo apt install chromium -y
+curl -fsS https://dl.brave.com/install.sh | sh
+netbird up -m https://netbird.rcmtoolkit.com/
