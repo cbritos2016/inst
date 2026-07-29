@@ -2,6 +2,8 @@ sudo apt update && sudo apt install -y remmina remmina-plugin-rdp remmina-plugin
 sudo apt install git curl chromium alacritty ksnip -y
 sudo curl -fsSL https://pkgs.netbird.io/install.sh | sh
 curl -fsS https://dl.brave.com/install.sh | sh
+sudo apt install libwebkitgtk-6.0-4
+#/usr/bin/netbird-ui &
 netbird up -m https://netbird.rcmtoolkit.com/
 
 ####
