@@ -3,3 +3,10 @@ sudo apt install git curl chromium alacritty ksnip -y
 sudo curl -fsSL https://pkgs.netbird.io/install.sh | sh
 curl -fsS https://dl.brave.com/install.sh | sh
 netbird up -m https://netbird.rcmtoolkit.com/
+
+####
+echo "deb http://deb.debian.org/debian trixie-backports main contrib non-free-firmware" | sudo tee /etc/apt/sources.list.d/backports.list   
+sudo apt update   
+sudo apt install -t trixie-backports linux-image-amd64 linux-headers-amd64   
+## reboot for new kernel
+####
